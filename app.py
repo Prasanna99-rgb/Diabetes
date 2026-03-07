@@ -4,7 +4,7 @@ import numpy as np
 
 # Page configuration
 st.set_page_config(
-    page_title="ML Prediction App",
+    page_title="Diabetes Prediction App",
     page_icon="🤖",
     layout="centered"
 )
