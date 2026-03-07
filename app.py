@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 # Title
-st.title("🤖 Diabetes Learning Prediction App")
+st.title("🤖 Diabetes Prediction App")
 st.write("This app predicts results using a trained Logistic Regression model.")
 
 # Load model
