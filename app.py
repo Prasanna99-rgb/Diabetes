@@ -23,14 +23,14 @@ except:
 # Sidebar
 st.sidebar.header("Enter Feature Values")
 
-f1 = st.sidebar.number_input("Feature 1")
-f2 = st.sidebar.number_input("Feature 2")
-f3 = st.sidebar.number_input("Feature 3")
-f4 = st.sidebar.number_input("Feature 4")
-f5 = st.sidebar.number_input("Feature 5")
-f6 = st.sidebar.number_input("Feature 6")
-f7 = st.sidebar.number_input("Feature 7")
-f8 = st.sidebar.number_input("Feature 8")
+f1 = st.sidebar.number_input("Pregnancies")
+f2 = st.sidebar.number_input("Glucose")
+f3 = st.sidebar.number_input("BloodPressure")
+f4 = st.sidebar.number_input("SkinThickness")
+f5 = st.sidebar.number_input("Insulin")
+f6 = st.sidebar.number_input("BMI")
+f7 = st.sidebar.number_input("DiabetesPedigreeFunction")
+f8 = st.sidebar.number_input("Age")
 
 # Prediction button
 if st.button("Predict"):
